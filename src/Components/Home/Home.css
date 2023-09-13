@@ -1,0 +1,32 @@
+body{
+ 
+    background-image: url("src/assets/Image/illustration-geometric-shapes-with-neon-laser-lights-great-backgrounds-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Card{
+    width: 280px;
+    height: 350px;
+    border: 1px solid gray;
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.button-btn{
+    background-color: aqua;
+}
+.Home-Container{
+    display: flex;
+}
+.card-container{
+    width:600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
